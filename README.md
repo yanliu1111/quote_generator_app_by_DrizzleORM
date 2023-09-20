@@ -4,6 +4,12 @@
 
 ## Tech Stacks
 
+✅ Nextjs
+✅ PlanetScale MySQL
+✅ Drizzle ORM
+
+## Tech Notes:
+
 1. PlanetScale MySQL <br>
    [PlanetScale](https://planetscale.com/) is the advanced serverless MySQL Platform
    (credit card info needed to sign up 🤨, that's why I like [supabase](https://supabase.com/) and [clever-cloud](https://www.clever-cloud.com/) database 👈 Highly recommend! )
