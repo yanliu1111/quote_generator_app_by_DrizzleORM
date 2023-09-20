@@ -6,7 +6,7 @@
 
 ✅ Nextjs
 ✅ PlanetScale MySQL
-✅ Drizzle ORM
+✅ [Drizzle ORM](https://orm.drizzle.team/)
 
 ## Tech Notes:
 
