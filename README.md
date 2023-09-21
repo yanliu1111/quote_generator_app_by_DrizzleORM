@@ -62,3 +62,6 @@ inner join categories C on Q.category_id = C.id;
 - Import drizzle is called infer model to get the type. Create `types.d.ts` file.
 
 3 Multi-case cursor preserve that allows you to select one then press CtrlD to select the next one. It also can keeps one lowercase and other one in uppercase. Ex: username in `username: process.env.DATABASE_USERNAME`
+
+4. api
+   `localhost:3000/api/quotes` <br>
