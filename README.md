@@ -2,13 +2,15 @@
 
 ## Application Introduction
 
-## Tech Stacks
+Build a random quote generator app with Nextjs, PlanetScale MySQL, & Drizzle ORM. Learn from [this tutorial](https://www.youtube.com/watch?v=d7XJjQesDtE&t=1565s&ab_channel=DaveGray), set up a MySQL database on PlanetScale, connect to and query the database with Drizzle ORM, and build a Next.js frontend and API routes.
 
-✅ Nextjs
-✅ PlanetScale MySQL
-✅ [Drizzle ORM](https://orm.drizzle.team/)
+## ⚙Tech Stacks
 
-## Tech Notes:
+🔗 Nextjs <br>
+🔗 PlanetScale MySQL <br>
+🔗 [Drizzle ORM](https://orm.drizzle.team/) <br>
+
+## 📚Tech Notes:
 
 1. PlanetScale MySQL <br>
    [PlanetScale](https://planetscale.com/) is the advanced serverless MySQL Platform
