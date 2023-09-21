@@ -58,7 +58,7 @@ inner join categories C on Q.category_id = C.id;
 ✅ Promote to production<br>
 ✅ Enable safe migration<br>
 
-2 Dizzle ORM <br>
+2. Dizzle ORM <br>
 
 - [Drizzle ORM](https://orm.drizzle.team/) is a lightweight, promise-based ORM for Node.js, written in TypeScript and inspired by Sequelize. Check `schema.ts` file for more details.
 - Import drizzle is called infer model to get the type. Create `types.d.ts` file.
