@@ -61,7 +61,11 @@ inner join categories C on Q.category_id = C.id;
 - [Drizzle ORM](https://orm.drizzle.team/) is a lightweight, promise-based ORM for Node.js, written in TypeScript and inspired by Sequelize. Check `schema.ts` file for more details.
 - Import drizzle is called infer model to get the type. Create `types.d.ts` file.
 
-3 Multi-case cursor preserve that allows you to select one then press CtrlD to select the next one. It also can keeps one lowercase and other one in uppercase. Ex: username in `username: process.env.DATABASE_USERNAME`
+3. Multi-case cursor preserve that allows you to select one then press CtrlD to select the next one. It also can keeps one lowercase and other one in uppercase. Ex: username in `username: process.env.DATABASE_USERNAME`
 
 4. api
    `localhost:3000/api/quotes` <br>
+   `localhost:3000/api/randomquote` <br>
+5. Client side vs Server side explained when creating page.tsx. `page.tsx` is a server side rendered page, so it's going to be rendered on the server, and then sent to the client. <br>
+   **You could request from an API route in your client components, but not in your server components. <br>**
+   THE HOME PAGE is the server page, the quote component itself is going to be the client page, the user can refresh the page whenever they want to, it has some interaction right there that they are taking. But the rest of this, you get the random quote this is going to be servers side rendered, and then the user can interact with the quote component itself. So that's the difference between the two. So it's issuing this request from the server which is also a good discussion because we did create API routes but you dont want to set up your server component to request from your API route in the same NEXT app, because whatever data the server component requests need to be available at build time and it cannot be avaiable if you're also building your routes at the same time. So you want to make sure that you're not requesting from your API routes in your server components. You could request from an API route in your client components, but not in your server components, that would cause a build error.
