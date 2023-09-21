@@ -1,6 +1,5 @@
 import { authors, categories, quotes } from '@/db/schema';
 
-import React from 'react';
 import { config } from '@/db/config';
 import { connect } from '@planetscale/database';
 import { drizzle } from 'drizzle-orm/planetscale-serverless';
